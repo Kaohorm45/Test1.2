@@ -1,0 +1,17 @@
+string namePlayer;
+            namePlayer = Console.ReadLine();
+            string nameBox;
+            nameBox = Console.ReadLine();
+            int box1,box2,box3 ;
+            box1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Player: "+namePlayer);
+            Console.WriteLine("A : " + box1 );
+            Console.WriteLine("B : " + box1);
+            box2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Player: " + namePlayer);
+            Console.WriteLine("A : " + box2);
+            Console.WriteLine("B : " + box2);
+            box3 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Player: " + namePlayer);
+            Console.WriteLine("A : "+box3);
+            Console.WriteLine("B : "+box3);
